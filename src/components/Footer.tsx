@@ -66,7 +66,7 @@ export default function Footer({
                 aria-label={i.alt}
                 className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[rgba(255,255,255,0.08)] hover:bg-[rgba(255,255,255,0.18)] transition"
               >
-                <Image src={i.src} alt={i.alt} width={18} height={18} />
+                <Image src={i.src} alt={i.alt} width={18} height={18} className="invert" />
               </a>
             ))}
           </div>
